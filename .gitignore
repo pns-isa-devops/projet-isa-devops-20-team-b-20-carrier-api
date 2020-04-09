@@ -1,0 +1,14 @@
+**/*~
+**/.DS_Store
+.idea
+*.iml
+release.properties
+buildNumber.properties
+conception/diagrams/*
+*.vpp.*
+sonarCommand.txt
+logs/*
+
+#Executable
+server.exe
+.vscode/*
