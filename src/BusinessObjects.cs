@@ -9,10 +9,13 @@ namespace Carrier.Data
     {
         [DataMember]
         public string ParcelNumber { get; set; }
+        public string Address { get; set; }
+        public string Carrier { get; set; }
+        public string CustomerName { get; set; }
 
         Parcel(){}
 
-        public Parcel(string id){
+        public Parcel(string id, string Address, string Carrier, string CustomerName){
             this.ParcelNumber = id;
         }
 
